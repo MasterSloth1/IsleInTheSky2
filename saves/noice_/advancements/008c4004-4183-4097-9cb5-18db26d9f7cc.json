@@ -1,0 +1,17 @@
+{
+  "lootr:root": {
+    "criteria": {
+      "always_true": "2024-01-17 18:26:59 +1300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:beach": "2024-01-17 18:27:39 +1300",
+      "minecraft:lukewarm_ocean": "2024-01-17 18:27:44 +1300",
+      "minecraft:savanna": "2024-01-17 18:27:02 +1300"
+    },
+    "done": false
+  },
+  "DataVersion": 3120
+}

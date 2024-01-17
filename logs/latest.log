@@ -1,0 +1,89 @@
+[09:12:41] [main/INFO]: ModLauncher running: args [--username, MasterSloth1, --version, 1.19.2, --gameDir, ..\..\instances\isle 2, --assetsDir, ..\..\datastore\assets, --assetIndex, 1.19, --uuid, 008c4004418340979cb518db26d9f7cc, --accessToken, ????????, --clientId, ${clientid}, --xuid, ${auth_xuid}, --userType, mojang, --versionType, release, --launchTarget, forgeclient, --fml.forgeVersion, 43.3.7, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853, --width=1280, --height=720]
+[09:12:41] [main/INFO]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.1 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
+[09:12:44] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/B:/Modded%20Minecraft/datastore/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2391!/ Service=ModLauncher Env=CLIENT
+[09:12:52] [main/INFO]: Compatibility level set to JAVA_17
+[09:12:53] [main/INFO]: Successfully loaded Mixin Connector [shetiphian.core.mixins.MixinConnector]
+[09:12:53] [main/INFO]: Successfully loaded Mixin Connector [shetiphian.endertanks.mixins.MixinConnector]
+[09:12:53] [main/INFO]: Launching target 'forgeclient' with arguments [--version, 1.19.2, --gameDir, ..\..\instances\isle 2, --assetsDir, ..\..\datastore\assets, --uuid, 008c4004418340979cb518db26d9f7cc, --username, MasterSloth1, --assetIndex, 1.19, --accessToken, ????????, --clientId, ${clientid}, --xuid, ${auth_xuid}, --userType, mojang, --versionType, release, --width=1280, --height=720]
+[09:12:54] [main/WARN]: Reference map 'insanelib.refmap.json' for insanelib.mixins.json could not be read. If this is a development environment you can ignore this message
+[09:12:54] [main/WARN]: Reference map 'chat_heads-forge-refmap.json' for chat_heads.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[09:12:55] [main/INFO]: Patching IForgeItemStack#getEnchantmentLevel
+[09:12:55] [main/INFO]: Patching IForgeItemStack#getEnchantmentLevel
+[09:12:55] [main/WARN]: Error loading class: mezz/modnametooltip/TooltipEventHandler (java.lang.ClassNotFoundException: mezz.modnametooltip.TooltipEventHandler)
+[09:12:55] [main/WARN]: Error loading class: me/shedaniel/rei/impl/client/ClientHelperImpl (java.lang.ClassNotFoundException: me.shedaniel.rei.impl.client.ClientHelperImpl)
+[09:12:57] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/gui/SodiumGameOptionPages (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.gui.SodiumGameOptionPages)
+[09:12:57] [main/WARN]: @Mixin target me.jellysquid.mods.sodium.client.gui.SodiumGameOptionPages was not found farsight.mixins.json:SodiumGameOptionPagesMixin
+[09:12:58] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.1).
+[09:13:04] [main/INFO]: Patching IForgeItemStack#getEnchantmentLevel
+[09:13:04] [main/INFO]: Patching IForgeItemStack#getEnchantmentLevel
+[09:13:10] [pool-3-thread-1/INFO]: Patching IForgeItemStack#getEnchantmentLevel
+[09:13:10] [pool-3-thread-1/INFO]: Patching IForgeItemStack#getEnchantmentLevel
+[09:13:25] [Render thread/INFO]: Loaded config for: farsight.json
+[09:13:26] [Render thread/INFO]: Saved config to B:\Modded Minecraft\instances\isle 2\config\simple-rpc\simple-rpc.toml
+[09:13:26] [Render thread/INFO]: Loading config file from B:\Modded Minecraft\instances\isle 2\config\simple-rpc\simple-rpc.toml
+[09:13:26] [Render thread/INFO]: Registered simple-rpc.toml successfully!
+[09:13:26] [Render thread/INFO]: Saved config to B:\Modded Minecraft\instances\isle 2\config\simple-rpc\server-entries.toml
+[09:13:26] [Render thread/INFO]: Loading config file from B:\Modded Minecraft\instances\isle 2\config\simple-rpc\server-entries.toml
+[09:13:26] [Render thread/INFO]: Registered server-entries.toml successfully!
+[09:13:26] [Thread-18/INFO]: Sending Reload Event for: server-entries.toml
+[09:13:27] [pool-4-thread-3/INFO]: Connected and Ready!
+[09:13:27] [modloading-worker-0/INFO]: Better Compatibility Checker loading
+[09:13:27] [modloading-worker-0/INFO]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.feature.TagsFeature
+[09:13:27] [modloading-worker-0/INFO]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.wither.feature.RewardFeature
+[09:13:27] [modloading-worker-0/INFO]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.wither.feature.ResistancesFeature
+[09:13:27] [modloading-worker-0/INFO]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.wither.feature.MiscFeature
+[09:13:27] [modloading-worker-0/INFO]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.feature.FixFeature
+[09:13:27] [modloading-worker-0/INFO]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.feature.AEC3DFeature
+[09:13:27] [modloading-worker-0/INFO]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.wither.feature.MinionFeature
+[09:13:27] [modloading-worker-0/INFO]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.wither.feature.HealthFeature
+[09:13:27] [modloading-worker-0/INFO]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.wither.feature.DifficultyFeature
+[09:13:27] [modloading-worker-0/INFO]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.wither.feature.AttackFeature
+[09:13:27] [modloading-worker-0/INFO]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.elderguardian.feature.RewardFeature
+[09:13:27] [modloading-worker-0/INFO]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.elderguardian.feature.ResistancesFeature
+[09:13:27] [modloading-worker-0/INFO]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.elderguardian.feature.MinionFeature
+[09:13:27] [modloading-worker-0/INFO]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.elderguardian.feature.HealthFeature
+[09:13:28] [modloading-worker-0/INFO]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.elderguardian.feature.BaseFeature
+[09:13:28] [modloading-worker-0/INFO]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.elderguardian.feature.AttackFeature
+[09:13:28] [modloading-worker-0/INFO]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.dragon.feature.RewardFeature
+[09:13:28] [modloading-worker-0/INFO]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.dragon.feature.ResistancesFeature
+[09:13:28] [modloading-worker-0/INFO]: Initializing Update Checker...
+[09:13:28] [ Iron Furnaces Update Checker/INFO]: Starting Update Check...
+[09:13:28] [modloading-worker-0/WARN]: @Final field f_31201_:Lorg/slf4j/Logger; in progressivebosses.mixins.json:DragonChargePlayerPhaseMixin should be final
+[09:13:28] [modloading-worker-0/INFO]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.dragon.feature.MinionFeature
+[09:13:28] [modloading-worker-0/INFO]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.dragon.feature.LarvaFeature
+[09:13:28] [modloading-worker-0/INFO]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.dragon.feature.HealthFeature
+[09:13:28] [modloading-worker-0/INFO]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.dragon.feature.DifficultyFeature
+[09:13:28] [modloading-worker-0/INFO]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.dragon.feature.CrystalFeature
+[09:13:28] [modloading-worker-0/INFO]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.dragon.feature.AttackFeature
+[09:13:28] [modloading-worker-0/INFO]: [Ping-Wheel] Init
+[09:13:28] [modloading-worker-0/INFO]: [Ping-Wheel] Loaded Config(pingVolume=100, pingDuration=7, pingDistance=2048, correctionPeriod=1.0, itemIconVisible=true, directionIndicatorVisible=true, pingSize=100, channel=, raycastDistance=1024, safeZoneLeft=5, safeZoneRight=5, safeZoneTop=5, safeZoneBottom=60)
+[09:13:28] [modloading-worker-0/WARN]: Config field without expected type, will not validate list content (merchantNames in net.blay09.mods.farmingforblockheads.FarmingForBlockheadsConfigData)
+[09:13:28] [ Iron Furnaces Update Checker/INFO]: Update Check done!
+[09:13:28] [ Iron Furnaces Update Checker/INFO]: Iron Furnaces is up to date!
+[09:13:28] [modloading-worker-0/INFO]: Forge mod loading, version 43.3.7, for MC 1.19.2 with MCP 20220805.130853
+[09:13:28] [modloading-worker-0/INFO]: MinecraftForge v43.3.7 Initialized
+[09:13:28] [modloading-worker-0/WARN]: Config field without expected type, will not validate list content (compressBlacklist in net.blay09.mods.craftingtweaks.config.CraftingTweaksConfigData$Common)
+[09:13:28] [modloading-worker-0/WARN]: Config field without expected type, will not validate list content (disabledAddons in net.blay09.mods.craftingtweaks.config.CraftingTweaksConfigData$Client)
+[09:13:29] [modloading-worker-0/INFO]: Creating World Stripper directory
+[09:13:29] [modloading-worker-0/INFO]: Reading World Stripper JSON file
+[09:13:29] [modloading-worker-0/INFO]: Initialized network channel 'multiblock' for mod 'bdlib'
+[09:13:29] [modloading-worker-0/INFO]: Initialized network channel 'misc' for mod 'bdlib'
+[09:13:29] [modloading-worker-0/INFO]: Mod [FTB XMod Compat] not detected. Install it if you want FTB Chunks integration with KubeJS, Game Stages, Waystones, FTB Ranks/Luckperms and/or Common Protection API
+[09:13:30] [modloading-worker-0/INFO]: IC2 Not loaded, skipping integration
+[09:13:30] [modloading-worker-0/INFO]: Mekanism Not loaded, skipping integration
+[09:13:30] [modloading-worker-0/INFO]: Initialized multiblock manager for advgenerators
+[09:13:30] [modloading-worker-0/INFO]: Initialized network channel 'generators' for mod 'advgenerators'
+[09:13:31] [modloading-worker-0/INFO]: Kotlin For Forge Enabled!
+[09:13:34] [Render thread/WARN]: Registry minecraft:menu: The object net.minecraft.world.inventory.MenuType@13e5dd29 has been registered twice for the same name ae2:portable_mana_cell.
+[09:13:45] [Worker-Main-5/INFO]: Better Compatibility Checker setting up
+[09:13:45] [Worker-Main-7/INFO]: farsight_view mod initialized
+[09:13:45] [Forge Version Check/INFO]: Global Forge version check system disabled, no further processing.
+[09:13:45] [Placebo Patreon Trail Loader/INFO]: Loading patreon trails data...
+[09:13:45] [Placebo Patreon Wing Loader/INFO]: Loading patreon wing data...
+[09:13:45] [Placebo Patreon Wing Loader/INFO]: Loaded 26 patreon wings.
+[09:13:45] [Placebo Patreon Trail Loader/INFO]: Loaded 37 patreon trails.
+[09:13:52] [Worker-Main-16/INFO]: Applying mega torch entity block list overrides...
+[09:13:52] [Worker-Main-16/INFO]: Applying dread lamp entity block list overrides...
+[09:14:00] [Render thread/INFO]: BookContentResourceListenerLoader preloaded 275 jsons
+[09:14:00] [Render thread/INFO]: Not reloading resource pack-based books as client world is missing
+[09:14:00] [Render thread/INFO]: Loaded config for: cupboard.json
